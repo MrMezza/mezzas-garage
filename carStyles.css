@@ -24,6 +24,16 @@ body{
 	font-family:franklin gothic;
 }
 
+#header2a{
+	font-size: 350%;
+	font-weight: bold;
+	color:black;
+	text-align:center;
+	font-family:franklin gothic;
+	text-decoration:underline;
+	text-decoration-color:darkblue;
+}
+
 #desc1{
   color:white;
   text-align:center;
@@ -61,6 +71,20 @@ body{
   width:auto;
   float:center;
   font-family:verdana;
+}
+
+#carBodyQuote{
+	font-family:Georgia, Times, "Times New Roman", serif;
+	font-size:200%;
+	font-weight:600;
+	font-style:italic;
+	margin-bottom:30px;
+}
+
+#carBody{
+	font-family:Georgia, Times, "Times New Roman", serif;
+	font-size:150%;
+	margin-bottom:26px;
 }
 
 ul{
