@@ -4,6 +4,7 @@
     <title>Mezza's Garage</title>
 	<link rel="icon" type="image/x-icon" href="MG Logo.png">
     <link rel="stylesheet" href="carStyles.css">
+	<script src="imageGallery.js"></script>
   </head>
   <body onload="currentSlide(1)" style=background-color:white>
     <div id="header1">
@@ -51,3 +52,24 @@
 	<div id="carBody" style="margin-left:275px">
 		The 288 GTO's five-speed manual transmission can bring it to a top speed of 304km/h, and of <br>course it is accompanied by a glorious gated shifter which adds even more amazing sounds to <br>the driving experience.
 	</div>
+
+	<div class="image_gallery">
+		<div style="font-weight:italic; font-family:franklin gothic; text-align:center; color:white; font-size:250%">Gallery</div><br>
+        <img src="Ferrari-288GTO-1.jpg" onclick="showImage('Ferrari-288GTO-1.jpg')"> 
+        <img src="Ferrari-288GTO-2.jpg" onclick="showImage('Ferrari-288GTO-2.jpg')">
+        <img src="Ferrari-288GTO-3.jpg" onclick="showImage('Ferrari-288GTO-3.jpg')">
+        <img src="Ferrari-288GTO-4.jpg" onclick="showImage('Ferrari-288GTO-4.jpg')">
+        <img src="Ferrari-288GTO-5.jpg" onclick="showImage('Ferrari-288GTO-5.jpg')">
+        <img src="Ferrari-288GTO-6.jpg" onclick="showImage('Ferrari-288GTO-6.jpg')">
+		<img src="Ferrari-288GTO-7.jpg" onclick="showImage('Ferrari-288GTO-7.jpg')">
+		<img src="Ferrari-288GTO-8.jpg" onclick="showImage('Ferrari-288GTO-8.jpg')">
+    </div>
+
+    <div id="expanded_img" class="single_image_display">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <img class="image_content" id="image">
+    </div>
+	<br>
+	<iframe width="1882" height="677" src="https://www.youtube.com/embed/abcBwTAy-bM" allowfullscreen style="margin:10px 10px; border:none"></iframe>
+
+</html>
